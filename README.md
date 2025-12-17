@@ -1,2 +1,7 @@
 # my-first-repo
-My first GitHub repository
+
+This is my first GitHub repository.
+
+## What I learn
+- How to create a repository
+- How GitHub works
