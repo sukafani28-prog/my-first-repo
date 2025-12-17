@@ -1,7 +1,14 @@
 # my-first-repo
 
-This is my first GitHub repository.
+🎉 This is my first GitHub repository!
 
-## What I learn
-- How to create a repository
-- How GitHub works
+## 📌 About
+This repository is created to learn how GitHub works.
+
+## 🚀 What I will do
+- Learn how to use GitHub
+- Upload my first project
+- Practice coding
+
+## 🧑‍💻 Author
+- GitHub: sukafani28-prog
