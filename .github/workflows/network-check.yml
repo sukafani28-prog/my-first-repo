@@ -1,0 +1,24 @@
+name: Network Check
+
+on:
+  workflow_dispatch:        # 允许手动运行
+  schedule:
+    - cron: "*/5 * * * *"   # 每 5 分钟运行一次
+
+jobs:
+  check-network:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Run network check
+        run: |
+          python network_check.py
+Add GitHub Actions network check
